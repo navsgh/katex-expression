@@ -10,7 +10,7 @@ A web component/custom element `<katex-expression>` to render [katex](https://ka
 
 - [Installation](#installation)
 	- [HTML](#html)
-	- [React/Angular/Vue](#npm)
+	- [React/Angular/Vue](#reactangularvue)
 - [Usage](#usage)
 	- [Basic](#basic)
 	- [Katex Options](#katex-options)
@@ -28,7 +28,7 @@ A web component/custom element `<katex-expression>` to render [katex](https://ka
 <script src='https://unpkg.com/katex-expression/dist/katex-expression.js'></script>
 ```
 
-### React/Angular/Vue [NPM]
+### React/Angular/Vue
 - Run `npm i --save katex-expression`
 
 > Note: Katex css, js, & fonts are bundled in this package. You can skip including them in your application. Please refer [package.json](./package.json) for katex version.
