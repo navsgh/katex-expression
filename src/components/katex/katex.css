@@ -1,0 +1,9 @@
+@import "~katex/dist/katex.min.css";
+
+/**
+ * Wrap expression
+ */
+.katex 
+{
+  white-space: normal !important;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Katex Expression</title>
+
+  <!-- Note: The following link is not required for production version. It's
+  included here for the "npm start" dev version which doesn't load fonts --> 
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css"
+  integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j"
+  crossorigin="anonymous">  
+  
+  <script type="module"src="/build/katex-expression.esm.js"></script>
+  <script nomodule src="/build/katex-expression.js"></script>
+
+</head>
+
+<body>
+
+	<katex-expression 
+    expression='\int \dfrac{(log\ x)^3}{x}\ dx' 
+    katex-options='{ "displayMode": true , "throwOnError": true }'>
+	</katex-expression>
+
+  <katex-expression id="expression"
+      expression='\gte' 
+      katex-options='{ "displayMode": true , "throwOnError": true }'>
+  </katex-expression>
+
+  <script>
+    const element = document.querySelector('#expression');
+    element.addEventListener('onError', error => { 
+      console.error('<katex-expression> error:', error)
+    })
+  </script>
+
+</body>
+
+</html>
