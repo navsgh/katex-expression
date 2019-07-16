@@ -40,8 +40,8 @@ A web component/custom element `<katex-expression>` to render [katex](https://ka
 Use the `<katex-expression>` tag anywhere in your html. Set the `expression` attribute to the katex expression.
 
 ```html
-	<katex-expression expression='\int \dfrac{(log\ x)^3}{x}\ dx'>
-	</katex-expression>
+<katex-expression expression='\int \dfrac{(log\ x)^3}{x}\ dx'>
+</katex-expression>
 ```
 
 ### Katex Options
@@ -49,10 +49,10 @@ Use the `<katex-expression>` tag anywhere in your html. Set the `expression` att
 `katex-options` accepts a json str for katex rendering options. Refer [Katex API Options](https://katex.org/docs/options.html) for more information. Example usage for `katex-options`:
 
 ```html
-	<katex-expression 
-    expression='\int \dfrac{(log\ x)^3}{x}\ dx' 
-    katex-options='{ "displayMode": true , "throwOnError": true }'>
-	</katex-expression>
+<katex-expression 
+	expression='\int \dfrac{(log\ x)^3}{x}\ dx' 
+	katex-options='{ "displayMode": true , "throwOnError": true }'>
+</katex-expression>
 ```
 
 ### Error Handling
@@ -60,7 +60,8 @@ Use the `<katex-expression>` tag anywhere in your html. Set the `expression` att
 `Error` objects are emitted via the `onError` event. Handle this event to re-throw, pipe exceptions to Sentry or elsewhere. Example non-JSX usage below:
 
 ```html
-<katex-expression id="expression"
+<katex-expression 
+	id="expression"
 	expression='\gte' 
 	katex-options='{ "displayMode": true , "throwOnError": true }'>
 </katex-expression>
