@@ -15,8 +15,7 @@
     "loader/"
   ],
   "scripts": {
-    "fonts": "cp -r node_modules/katex/dist/fonts dist/",
-    "build": "stencil build --docs && npm run fonts",
+    "build": "stencil build --docs",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
