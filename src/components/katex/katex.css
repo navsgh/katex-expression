@@ -1,4 +1,5 @@
 @import "~katex/dist/katex.min.css";
+@import "./katex-fonts.css";
 
 /**
  * Wrap expression
