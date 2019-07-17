@@ -22,10 +22,11 @@ A web component/custom element (`<katex-expression>`) to render [KaTeX](https://
 
 ### HTML
 
-Insert the following script tag in the `<head>` section of your html
+Insert the following script tags in the `<head>` section of your html
 
 ```html
-<script src='https://unpkg.com/@navsnpm/katex-expression/dist/katex-expression.js'></script>
+<script type="module" src="https://unpkg.com/@navsnpm/katex-expression/dist/katex-expression/katex-expression.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/@navsnpm/katex-expression/dist/katex-expression/katex-expression.js"></script>
 ```
 
 ### React/Angular/Vue
