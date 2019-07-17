@@ -1,5 +1,5 @@
 import { newSpecPage } from '@stencil/core/testing';
-import { KatexExpression } from './katex';
+import { KatexExpression } from './katex-expression';
 
 describe('katex-expression', () => {
 

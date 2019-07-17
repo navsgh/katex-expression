@@ -7,7 +7,7 @@ import katex from 'katex';
 
 @Component({
   tag: 'katex-expression',
-  styleUrl: 'katex.css',
+  styleUrl: 'katex-expression.css',
   shadow: false,
 })
 export class KatexExpression
