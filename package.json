@@ -31,7 +31,7 @@
   "homepage": "https://github.com/navsgh/katex-expression",
   "repository": {
     "type": "git",
-    "url": "git@github.com:navsgh/katex-expression.git"
+    "url": "https://github.com/navsgh/katex-expression"
   },
   "bugs": {
     "url": "https://github.com/navsgh/katex-expression"
