@@ -55,12 +55,13 @@ Use the `<katex-expression>` tag anywhere in your html. Set the `expression` att
 <!--
 ```
 <custom-element-demo>
-  <template>
-	<script type="module" src="https://unpkg.com/@navsnpm/katex-expression/dist/katex-expression/katex-expression.esm.js"></script>
-	<script nomodule="" src="https://unpkg.com/@navsnpm/katex-expression/dist/katex-expression/katex-expression.js"></script>
-	<katex-expression expression='\int \dfrac{(log\ x)^3}{x}\ dx'>
-	</katex-expression>
-  </template>
+<template>
+<script type="module" src="https://unpkg.com/@navsnpm/katex-expression/dist/katex-expression/katex-expression.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/@navsnpm/katex-expression/dist/katex-expression/katex-expression.js"></script>
+<h4>Editable Demo</h4>
+<katex-expression expression='\int \dfrac{(log\ x)^3}{x}\ dx'>
+</katex-expression>
+</template>
 </custom-element-demo>
 ```
 -->
