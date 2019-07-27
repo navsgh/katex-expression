@@ -39,6 +39,8 @@ Install `<katex-expression>` using npm
 npm i --save @navsnpm/katex-expression
 ```
 
+- Angular 8 example: Refer the repo [katex-expression-ng](https://github.com/navsgh/katex-expression-ng)
+
 > Note: Katex css, js, & fonts are bundled in this package. You can skip including them in your application. Please refer [package.json](./package.json) for KaTeX version.
 
 ## Usage
