@@ -37,7 +37,7 @@ export class KatexExpression
 
   options: Object; 
 
-  @Watch('katex-options')
+  @Watch('katexOptions')
   katexOptionsChanged(value: string)
   {
     if(!value) {

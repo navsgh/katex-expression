@@ -1,6 +1,6 @@
 {
   "name": "@navsnpm/katex-expression",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "A web component to render KaTeX expression",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -37,8 +37,8 @@
     "url": "https://github.com/navsgh/katex-expression"
   },
   "devDependencies": {
-    "@stencil/core": "^1.0.7",
-    "@types/jest": "24.0.15",
+    "@stencil/core": "^3.0.0",
+    "@types/jest": "^29.3.0",
     "@types/puppeteer": "1.12.4",
     "jest": "29.5.0",
     "jest-cli": "29.5.0",
@@ -46,7 +46,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "katex": "^0.15.2"
+    "katex": "^0.16.7"
   },
   "publishConfig": {
     "access": "public"
